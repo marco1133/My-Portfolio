@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marco Elevado-Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <header class="navbar">
+        <a href="#home" class="logo">MY PORTFOLIO</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact" class="contact-btn">Contact Me</a></li>
+        </ul>
+    
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-left">
+            <h3><img src="pictures/hand.jpg" width="50">  Hello there!, I am</h3>
+            <h1>Marco Paulo Q. Elevado</h1>
+            <h3>And I'm a <span id="typing"></span></h3>
+            <br>
+            <h4>I'm a BSIS Student</h4>
+
+        
+
+            <div class="socials">
+                <a href="http://www.linkedin.com/in/marco-paulo-elevado-a75358307" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/" target="_blank"><i class='bx bxl-github'></i></a>
+                <a href="https://wwww.facebook.com/share/17ZBRtUNoy/?mibextid=wwXlfr" target="_blank"><i class='bx bxl-facebook-circle'></i></a>
+                <a href="https://www.instagram.com/marcopauloelevado/" target="_blank"><i class='bx bxl-instagram'></i></a>
+                <a href="https://www.youtube.com/@_-m4rco-_-g4ming-_/videos" target="_blank"><i class='bx bxl-youtube'></i></a>
+                <a href="https://www.tiktok.com/@k0usetsu" target="_blank"><i class='bx bxl-tiktok'></i></a>
+            </div>
+
+            <a href="#about" class="btn">About Me</a>
+        </div>
+
+        <div class="home-right">
+            <img src="pictures/picture.jpg.png" alt="Your Photo">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <h2 class="section-title">ABOUT</h2>
+
+        <div class="about-container">
+            <div class="about-img">
+                <img src="pictures/profile.jpg.JPG" alt="About Image">
+            </div>
+
+            <div class="about-text">
+                <h3>About Me</h3>
+                <p>
+                    Motivated and detail-oriented Information System student seeking to apply technical and analytical skills in web development and software projects. Passionate about learning modern technologies and contributing to collaborative teams that
+                build innovative digital solutions.
+                </p>
+
+                <p><strong>Address:</strong> Purok 6, Brgy. Lag-on , Daet, Camarines Norte</p>
+                <p><strong>Contact No:</strong> 09206752720</p>
+                <p><strong>Email:</strong> <u><i>elevadomarcopaulo@gmail.com</i></u></p>
+            </div>
+        </div>
+    </section>
+
+<section class="education" id="education">
+    <h2 class="section-title">EDUCATION</h2>
+
+    <div class="carousel">
+        <input type="radio" name="slides" id="slide1" checked>
+        <input type="radio" name="slides" id="slide2">
+        <input type="radio" name="slides" id="slide3">
+        <input type="radio" name="slides" id="slide4">
+
+        <div class="carousel-inner">
+
+    <div class="slide" style="background-image: url('pictures/daaet.jpg');">
+        <img class="school-logo" src="pictures/dt.jpg.png" alt="Logo">
+    </div>
+
+    <div class="slide" style="background-image: url('pictures/cnnhs.jpg');">
+        <img class="school-logo" src="pictures/cnhs.jpg.png" alt="Logo">
+    </div>
+
+    <div class="slide" style="background-image: url('pictures/vphhs.jpg');">
+        <img class="school-logo" src="pictures/vp.jpg.png" alt="Logo">
+    </div>
+
+    <div class="slide" style="background-image: url('pictures/cnsc.jpg');">
+        <img class="school-logo" src="pictures/cn.jpg.png" alt="Logo">
+    </div>
+
+</div>
+
+
+        <div class="carousel-controls">
+            <label for="slide1" class="dot"></label>
+            <label for="slide2" class="dot"></label>
+            <label for="slide3" class="dot"></label>
+            <label for="slide4" class="dot"></label>
+        </div>
+
+<div class="carousel-arrows">
+    <label class="arrow left s1" for="slide4">&#10094;</label>
+    <label class="arrow right s1" for="slide2">&#10095;</label>
+
+    <label class="arrow left s2" for="slide1">&#10094;</label>
+    <label class="arrow right s2" for="slide3">&#10095;</label>
+
+    <label class="arrow left s3" for="slide2">&#10094;</label>
+    <label class="arrow right s3" for="slide4">&#10095;</label>
+
+    <label class="arrow left s4" for="slide3">&#10094;</label>
+    <label class="arrow right s4" for="slide1">&#10095;</label>
+</div>
+
+    </div>
+</section>
+
+    <script src="script.js"></script>
+
+<section class="projects" id="projects">
+    <h2 class="section-title">PROJECTS</h2>
+
+    <div class="projects-container">
+
+        <div class="flip-card">
+            <div class="flip-inner">
+                <div class="flip-front">
+                    <h3>My Project</h3>
+                </div>
+                <div class="flip-back">
+                    <img src="pictures/hala.jpg.jpg" alt="Project Image">
+                </div>
+            </div>
+        </div>
+
+         <div class="image-pair">
+            <div class="image-card"><img src="pictures/e.jpg" alt="Image 1"></div>
+            <div class="image-card"><img src="pictures/q.jpg" alt="Image 2"></div>
+        </div>
+
+
+        <div class="image-pair">
+            <div class="image-card"><img src="pictures/b.jpg" alt="Image 3"></div>
+            <div class="image-card"><img src="pictures/a.jpg" alt="Image 4"></div>
+        </div>
+
+
+    </div>
+</section>
+
+    <section class="contact" id="contact">
+        <h2 class="section-title">CONTACT</h2>
+
+        <div class="contact-container">
+
+            <div class="contact-info">
+                <h3>Contact Me</h3>
+                <br>
+                <br>
+                <p>Email: <u><i>elevadomarcopaulo@gmail.com</i></u></p>
+                <br>
+                <br>
+                <p>Contact No: 09206752720</p>
+            </div>
+
+            <form class="contact-form">
+                <input type="text" placeholder="Enter Your Name" required>
+                <input type="email" placeholder="Enter Your Email" required>
+                <textarea placeholder="Enter Your Message" required></textarea>
+                <button type="submit" class="btn">Submit</button>
+            </form>
+
+        </div>
+    </section>
+
+    <footer>
+        <p>Marco Paulo Elevado — Web Developer Student</p>
+        <br>
+
+        <div class="footer-socials">
+                <a href="http://www.linkedin.com/in/marco-paulo-elevado-a75358307" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/" target="_blank"><i class='bx bxl-github'></i></a>
+                <a href="https://wwww.facebook.com/share/17ZBRtUNoy/?mibextid=wwXlfr" target="_blank"><i class='bx bxl-facebook-circle'></i></a>
+                <a href="https://www.instagram.com/marcopauloelevado/" target="_blank"><i class='bx bxl-instagram'></i></a>
+                <a href="https://www.youtube.com/@_-m4rco-_-g4ming-_/videos" target="_blank"><i class='bx bxl-youtube'></i></a>
+                <a href="https://www.tiktok.com/@k0usetsu" target="_blank"><i class='bx bxl-tiktok'></i></a>
+            </div>
+
+        <p class="rights">© 2025 Marco Elevado. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
